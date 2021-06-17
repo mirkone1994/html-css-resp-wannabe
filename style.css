@@ -75,6 +75,11 @@ img {
 /*responsive*/
 
 @media screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
   #lezioni .row {
     background-color: #F2F2CD;
     padding-bottom: 20px;
@@ -85,6 +90,7 @@ img {
   }
   .row {
     margin-top: 0px;
+    width: 100%;
   }
   * {
     font-size: 27px;
@@ -113,6 +119,11 @@ img {
 }
 
 @media screen and (max-width: 420px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
@@ -131,7 +142,8 @@ img {
     padding-bottom: 20px;
   }
   .row {
-    margin-top: 0px;
+    margin-top: 0;
+    width: 100%;
   }
   * {
     font-size: 27px;
